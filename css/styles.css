@@ -43,3 +43,38 @@ html, body{
     transition: transform 2s;
     display: none;
 }
+
+img{
+    display: none;
+}
+
+#q{
+    background: url("/images/3.jpeg");
+    background-size: cover;
+}
+
+#q1{
+    background: url("/images/9.jpeg");
+    background-size: cover;
+}
+
+#q2{
+    background: url("/images/10.jpeg");
+    background-size: cover;
+}
+
+#q3{
+    background: url("/images/4.jpeg");
+    background-size: cover;
+}
+
+#q4{
+    background: url("/images/5.jpeg");
+    background-size: cover;
+}
+
+#q5{
+    background: url("/images/2.jpeg");
+    background-size: cover;
+}
+
