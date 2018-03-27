@@ -1,9 +1,17 @@
-$(".rslides").responsiveSlides({
-    auto: true,             // Boolean: Animate automatically, true or false
-    speed: 1500,            // Integer: Speed of the transition, in milliseconds
-    timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
-});
-
-function menu() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+$(document).ready(function(){
+    var quad = [$("#q"), $("#q1"), $("#q2"), $("#q3"), $("#q4"), $("#q5")];
+    var i = 0;
+        var show = setInterval(function(){
+            quad[i].fadeIn("slow");
+            quad[i].css("transform", "rotateY(0deg)");
+            i++;
+            if(i == quad.length){
+                clearInterval(show);
+            }
+        }, 300);
+//    var newQuad = document.createElement("div");
+//    newQuad.setAttribute("class", "quad");
+////    quad[2] = $("#quad2");
+//    document.body.appendChild(newQuad);
+    
+})
