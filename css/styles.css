@@ -13,12 +13,14 @@ html, body{
 }
 
 #header h1{
+    font-family: 'Courgette', cursive;
     position: relative;
     top: 25%;
     font-size: 2em;
 }
 
 #header h2{
+    font-family: 'Roboto', sans-serif;
     position: relative;
     font-size: 1em;
     color: white;
